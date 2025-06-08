@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Repository.Models;
 using Service;
 
@@ -14,14 +15,14 @@ namespace Assignment2_PRN232.Controllers
         {
             _service = new TagService();
         }
-
+        [Authorize(Roles = "1")]
         [HttpGet("GetAllTags")]
         public async Task<IActionResult> GetAll()
         {
             var tags = await _service.GetAllTags();
             return Ok(tags);
         }
-
+        [Authorize(Roles = "1")]
         [HttpGet("GetTagById/{id}")]
         public async Task<IActionResult> Get(int id)
         {
@@ -29,7 +30,7 @@ namespace Assignment2_PRN232.Controllers
             if (tag == null) return NotFound();
             return Ok(tag);
         }
-
+        [Authorize(Roles = "1")]
         [HttpPost("CreateTag")]
         public async Task<IActionResult> Create([FromBody] Tag tag)
         {
@@ -37,7 +38,7 @@ namespace Assignment2_PRN232.Controllers
             if (!result) return BadRequest("Failed to create tag.");
             return Ok("Tag created.");
         }
-
+        [Authorize(Roles = "1")]
         [HttpPut("UpdateTag/{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] Tag tag)
         {
@@ -45,7 +46,7 @@ namespace Assignment2_PRN232.Controllers
             if (!result) return BadRequest("Update failed.");
             return Ok("Tag updated.");
         }
-
+        [Authorize(Roles = "1")]
         [HttpDelete("DeleteTag/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
