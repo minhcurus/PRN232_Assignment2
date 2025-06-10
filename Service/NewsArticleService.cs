@@ -89,5 +89,15 @@ namespace Service
             await _repo.UpdateAsync(oldNewsArticle);
             return true;
         }
+
+        public async Task<NewsStaticDTO> GetNewsArticleStatics(DateTime StartDate, DateTime EndDate)
+        {
+            var list = await _repo.GetNewsArticlesByTime(StartDate, EndDate);
+
+            return new NewsStaticDTO { 
+                newsArticles = list,
+                numberOfNewsArticle = list.Count,
+            };
+        }
     }
 }

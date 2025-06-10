@@ -18,12 +18,14 @@ namespace Assignment2_PRN232.Controllers
         {
             _service = service;
         }
+
         [Authorize(Roles = "1")]
         [HttpGet("GetNewsArticles")]
         public async Task<IActionResult> GetNewsArticles()
         {
             return CustomResult(await _service.GetNewsArticles());
         }
+
         [Authorize(Roles = "1")]
         [HttpGet("GetNewsArticlesByAccountId/{id}")]
         public async Task<IActionResult> GetNewsArticlesByAccountId(short id)
@@ -35,6 +37,7 @@ namespace Assignment2_PRN232.Controllers
             }
             return CustomResult(newArticle);
         }
+
         [Authorize(Roles = "1")]
         [HttpGet("GetNewsArticleById/{id}")]
         public async Task<IActionResult> GetNewsArticleById(string id)
@@ -46,6 +49,7 @@ namespace Assignment2_PRN232.Controllers
             }
             return CustomResult(newArticle);
         }
+
         [Authorize(Roles = "1")]
         [HttpPost("CreateNewsArticle")]
         public async Task<IActionResult> CreateNewsArticle(CreateNewsArticleDTO newsArticle)
@@ -53,6 +57,7 @@ namespace Assignment2_PRN232.Controllers
             if (await _service.CreateNewsArticle(newsArticle)) return CustomResult("Create news article successfully.");
             return CustomResult("Failed.");
         }
+
         [Authorize(Roles = "1")]
         [HttpDelete("DeleteNewsArticle")]
         public async Task<IActionResult> DeleteNewsArticle(string id)
@@ -60,6 +65,7 @@ namespace Assignment2_PRN232.Controllers
             if (await _service.RemoveNewsArticle(id)) return CustomResult("Successfully");
             return CustomResult("Failed");
         }
+
         [Authorize(Roles = "1")]
         [HttpPut("UpdateNewsArticle/{id}")]
         public async Task<IActionResult> UpdateNewsArticle(string id, CreateNewsArticleDTO newsArticle)
@@ -68,5 +74,11 @@ namespace Assignment2_PRN232.Controllers
             return CustomResult("Failed");
         }
 
+        [HttpGet("GetNewsArticlesReport")]
+        public async Task<IActionResult> GetNewsArticlesReport(DateTime startDate, DateTime endDate)
+        {
+            var report = await _service.GetNewsArticleStatics(startDate, endDate);
+            return CustomResult(report);
+        }
     }
 }

@@ -22,5 +22,8 @@ namespace Repository
 
         public async Task<List<NewsArticle>> GetAllNewsArticles()
             => await _context.NewsArticles.Include(a => a.CreatedBy).Include(a => a.Category).Include(a => a.Tags).Where(a => a.NewsStatus == true).ToListAsync();
+        
+        public async Task<List<NewsArticle>> GetNewsArticlesByTime(DateTime startDate, DateTime endDate)
+            => await _context.NewsArticles.Where(a => a.CreatedDate >= startDate &&  a.CreatedDate <= endDate).OrderByDescending(a => a.CreatedDate).ToListAsync();
     }
 }
