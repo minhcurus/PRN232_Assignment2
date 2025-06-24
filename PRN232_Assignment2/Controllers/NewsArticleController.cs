@@ -19,14 +19,12 @@ namespace Assignment2_PRN232.Controllers
             _service = service;
         }
 
-        [Authorize(Roles = "1")]
         [HttpGet("GetNewsArticles")]
         public async Task<IActionResult> GetNewsArticles()
         {
             return CustomResult(await _service.GetNewsArticles());
         }
 
-        [Authorize(Roles = "1")]
         [HttpGet("GetNewsArticlesByAccountId/{id}")]
         public async Task<IActionResult> GetNewsArticlesByAccountId(short id)
         {
@@ -38,7 +36,6 @@ namespace Assignment2_PRN232.Controllers
             return CustomResult(newArticle);
         }
 
-        [Authorize(Roles = "1")]
         [HttpGet("GetNewsArticleById/{id}")]
         public async Task<IActionResult> GetNewsArticleById(string id)
         {
@@ -74,6 +71,7 @@ namespace Assignment2_PRN232.Controllers
             return CustomResult("Failed");
         }
 
+        [Authorize(Roles = "0")]
         [HttpGet("GetNewsArticlesReport")]
         public async Task<IActionResult> GetNewsArticlesReport(DateTime startDate, DateTime endDate)
         {

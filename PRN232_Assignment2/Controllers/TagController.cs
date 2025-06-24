@@ -15,7 +15,6 @@ namespace Assignment2_PRN232.Controllers
         {
             _service = new TagService();
         }
-        [Authorize(Roles = "1")]
         [HttpGet("GetAllTags")]
         public async Task<IActionResult> GetAll()
         {

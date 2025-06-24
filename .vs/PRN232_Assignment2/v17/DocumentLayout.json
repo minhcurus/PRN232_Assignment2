@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "E:\\school\\visual studio\\PRN232_Assignment2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|E:\\school\\visual studio\\PRN232_Assignment2\\prn232_assignment2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|solutionrelative:prn232_assignment2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|e:\\school\\visual studio\\prn232_assignment2\\prn232_assignment2\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|solutionrelative:prn232_assignment2\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|E:\\school\\visual studio\\PRN232_Assignment2\\prn232_assignment2\\controllers\\newsarticlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|solutionrelative:prn232_assignment2\\controllers\\newsarticlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|e:\\school\\visual studio\\prn232_assignment2\\prn232_assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|solutionrelative:prn232_assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|e:\\school\\visual studio\\prn232_assignment2\\prn232_assignment2\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|solutionrelative:prn232_assignment2\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|e:\\school\\visual studio\\prn232_assignment2\\prn232_assignment2\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|solutionrelative:prn232_assignment2\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE58155F-FEA7-4D44-9A59-FE5A7AB44FEE}|Service\\Service.csproj|e:\\school\\visual studio\\prn232_assignment2\\service\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE58155F-FEA7-4D44-9A59-FE5A7AB44FEE}|Service\\Service.csproj|solutionrelative:service\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7719966C-2D3A-445C-8966-A70FE42D7266}|Repository\\Repository.csproj|e:\\school\\visual studio\\prn232_assignment2\\repository\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7719966C-2D3A-445C-8966-A70FE42D7266}|Repository\\Repository.csproj|solutionrelative:repository\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|e:\\school\\visual studio\\prn232_assignment2\\prn232_assignment2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|solutionrelative:prn232_assignment2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE58155F-FEA7-4D44-9A59-FE5A7AB44FEE}|Service\\Service.csproj|E:\\school\\visual studio\\PRN232_Assignment2\\service\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +37,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{EE58155F-FEA7-4D44-9A59-FE5A7AB44FEE}|Service\\Service.csproj|E:\\school\\visual studio\\PRN232_Assignment2\\service\\dto\\newsstaticdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE58155F-FEA7-4D44-9A59-FE5A7AB44FEE}|Service\\Service.csproj|solutionrelative:service\\dto\\newsstaticdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|E:\\school\\visual studio\\PRN232_Assignment2\\prn232_assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD44842-0364-4778-B3C4-6D5259842E79}|PRN232_Assignment2\\PRN232_Assignment2.csproj|solutionrelative:prn232_assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7719966C-2D3A-445C-8966-A70FE42D7266}|Repository\\Repository.csproj|E:\\school\\visual studio\\PRN232_Assignment2\\repository\\newsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 65,
+          "SelectedChildIndex": 64,
           "Children": [
             {
               "$type": "Bookmark",
@@ -294,26 +314,91 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "E:\\school\\visual studio\\PRN232_Assignment2\\PRN232_Assignment2\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "PRN232_Assignment2\\Controllers\\TagController.cs",
+              "ToolTip": "E:\\school\\visual studio\\PRN232_Assignment2\\PRN232_Assignment2\\Controllers\\TagController.cs*",
+              "RelativeToolTip": "PRN232_Assignment2\\Controllers\\TagController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T02:53:40.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\school\\visual studio\\PRN232_Assignment2\\PRN232_Assignment2\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "PRN232_Assignment2\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\school\\visual studio\\PRN232_Assignment2\\PRN232_Assignment2\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "PRN232_Assignment2\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwCQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T02:43:22.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\school\\visual studio\\PRN232_Assignment2\\PRN232_Assignment2\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PRN232_Assignment2\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\school\\visual studio\\PRN232_Assignment2\\PRN232_Assignment2\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PRN232_Assignment2\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T02:41:32.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TagService.cs",
+              "DocumentMoniker": "E:\\school\\visual studio\\PRN232_Assignment2\\Service\\TagService.cs",
+              "RelativeDocumentMoniker": "Service\\TagService.cs",
+              "ToolTip": "E:\\school\\visual studio\\PRN232_Assignment2\\Service\\TagService.cs",
+              "RelativeToolTip": "Service\\TagService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAArwDkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T02:39:25.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TagRepository.cs",
+              "DocumentMoniker": "E:\\school\\visual studio\\PRN232_Assignment2\\Repository\\TagRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\TagRepository.cs",
+              "ToolTip": "E:\\school\\visual studio\\PRN232_Assignment2\\Repository\\TagRepository.cs",
+              "RelativeToolTip": "Repository\\TagRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAEwCEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T02:39:14.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\school\\visual studio\\PRN232_Assignment2\\PRN232_Assignment2\\Program.cs",
               "RelativeDocumentMoniker": "PRN232_Assignment2\\Program.cs",
               "ToolTip": "E:\\school\\visual studio\\PRN232_Assignment2\\PRN232_Assignment2\\Program.cs",
               "RelativeToolTip": "PRN232_Assignment2\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T16:23:18.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\school\\visual studio\\PRN232_Assignment2\\PRN232_Assignment2\\appsettings.json",
               "RelativeDocumentMoniker": "PRN232_Assignment2\\appsettings.json",
               "ToolTip": "E:\\school\\visual studio\\PRN232_Assignment2\\PRN232_Assignment2\\appsettings.json",
               "RelativeToolTip": "PRN232_Assignment2\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-09T12:48:43.185Z",
               "EditorCaption": ""
@@ -326,14 +411,14 @@
               "RelativeDocumentMoniker": "PRN232_Assignment2\\Controllers\\NewsArticleController.cs",
               "ToolTip": "E:\\school\\visual studio\\PRN232_Assignment2\\PRN232_Assignment2\\Controllers\\NewsArticleController.cs",
               "RelativeToolTip": "PRN232_Assignment2\\Controllers\\NewsArticleController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAAAJAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAuwEkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T09:53:44.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "NewsStaticDTO.cs",
               "DocumentMoniker": "E:\\school\\visual studio\\PRN232_Assignment2\\Service\\DTO\\NewsStaticDTO.cs",
               "RelativeDocumentMoniker": "Service\\DTO\\NewsStaticDTO.cs",
@@ -341,11 +426,12 @@
               "RelativeToolTip": "Service\\DTO\\NewsStaticDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T08:38:20.725Z"
+              "WhenOpened": "2025-06-09T08:38:20.725Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "NewsArticleRepository.cs",
               "DocumentMoniker": "E:\\school\\visual studio\\PRN232_Assignment2\\Repository\\NewsArticleRepository.cs",
               "RelativeDocumentMoniker": "Repository\\NewsArticleRepository.cs",
@@ -357,15 +443,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "NewsArticleService.cs",
               "DocumentMoniker": "E:\\school\\visual studio\\PRN232_Assignment2\\Service\\NewsArticleService.cs",
               "RelativeDocumentMoniker": "Service\\NewsArticleService.cs",
               "ToolTip": "E:\\school\\visual studio\\PRN232_Assignment2\\Service\\NewsArticleService.cs",
               "RelativeToolTip": "Service\\NewsArticleService.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAwwGQAAAAJAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAwGMAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T08:34:22.139Z"
+              "WhenOpened": "2025-06-09T08:34:22.139Z",
+              "EditorCaption": ""
             }
           ]
         },

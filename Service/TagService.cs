@@ -61,7 +61,7 @@ namespace Service
             if (await _repo.HasNewsArticlesAsync(id))
                 return false;
 
-            await _repo.DeleteAsync(tag);
+            await _repo.RemoveAsync(tag);
             return true;
         }
     }
